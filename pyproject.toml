@@ -27,3 +27,6 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/huseyinozenalbayrak/python-mesha"
+
+[tool.setuptools.packages.find]
+where = ["."]
