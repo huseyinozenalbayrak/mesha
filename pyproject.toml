@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "python-mesha"
+name = "mesha"
 version = "0.0.3"
 authors = [
     { name = "Hüseyin Özen Albayrak", email = "210315026@ogr.cbu.edu.tr" },
@@ -27,6 +27,3 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/huseyinozenalbayrak/python-mesha"
-
-[tool.setuptools.packages.find]
-where = ["."]
